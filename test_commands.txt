@@ -1,0 +1,3 @@
+pip install coverage
+coverage run --omit='*/env/*' manage.py test
+coverage html
