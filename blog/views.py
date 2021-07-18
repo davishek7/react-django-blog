@@ -29,6 +29,9 @@ class PostList(viewsets.ModelViewSet):
 	def get_queryset(self):
 		return Post.objects.all()
 
+
+
+
 """
 #ViewSet
 class PostList(viewsets.ViewSet):
